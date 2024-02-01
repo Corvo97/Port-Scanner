@@ -15,10 +15,10 @@ help:
 ```python scanner.py -h```
 
 Range:
-```python scanner.py example.com 80-443``````
+```python scanner.py example.com 80-443```
 
 Single port:
-```python scanner.py example.com 443``````
+```python scanner.py example.com 443```
 
 ### Prerequisites
 
