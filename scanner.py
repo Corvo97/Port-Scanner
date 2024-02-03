@@ -36,7 +36,7 @@ def screen(func: callable) -> None:
     Returns:
     - None
     """
-    def wrapper(address, scan_range) -> any:
+    def wrapper(address: str, scan_range: list) -> any:
         print('Please wait...')
         start = datetime.datetime.now()
         if func(address, scan_range):
